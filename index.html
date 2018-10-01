@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>JoakimDesign</title>
+  <meta name="description" content="Min portfolio" />
+  <meta name="keywords" content="Joakim Johansson, portfolio, webbdesign, webbutveckling, webbguiden, joakimdesign, design, telia, kreativituren, sonician" />
+  <meta name="author" content="Joakim Johansson" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/rotate.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+
+<body>
+  <div class="wrapper"><!-- .wrapper -->
+    <header>
+		<h1><img src="img/joakimdesign4.png" alt="joakimdesign"></h1>
+    </header>
+	<nav>
+		<ul>
+			<li id="experience"><a href="#">erfarenhet</a></li>
+			<li id="portfolio"><a href="#">portfolio</a></li>
+			<li id="knowledge"><a href="#">kompetens</a></li>
+			<li id="about"><a href="#">om mig</a></li>
+		</ul>
+	</nav>
+    <div class="content"><!-- .content -->
+      <div class="rotatingChart"><!-- .rotatingChart -->
+       	<img id="one_piece" value=0 src="img/placeholder_career_piece.png" alt="erfarenhet - lånat ifrån the noun project">
+      	<img id="two_piece" value=1 src="img/placeholder_piece.png" alt="portfolio">
+      	<img id="three_piece" value=2 src="img/placeholder_skills_piece.png" alt="kompetens">
+      	<img id="four_piece" value=3 src="img/placeholder_about_me_piece.png" alt="om mig - lånade ifrån the noun project">
+      </div><!-- /.rotatingChart -->
+      <div id="textWrapper" class="textBlock"><!-- textBlock -->
+	  	<div class="shadow"></div>
+		<div id="changableTextBlock">
+		</div>
+      </div><!-- ./textBlock -->
+    </div><!-- /.content -->
+  </div><!-- /.wrapper -->
+  <footer>
+  	<p><a href="mailto:johansson.joakim@gmail.com">Joakim Johansson</a></p>
+  </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-26971360-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
